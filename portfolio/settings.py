@@ -73,11 +73,11 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 WSGI_APPLICATION = 'portfolio.wsgi.application'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-DEFAULT_FROM_EMAIL = "vinnarasan.c@gmail.com"
+EMAIL_HOST = 'smtp-mail.outlook.com'
+DEFAULT_FROM_EMAIL = "vinnarasan@live.com"
 EMAIL_HOST_USER = DEFAULT_FROM_EMAIL
-EMAIL_HOST_PASSWORD = ''
-EMAIL_USE_TLS = True
+EMAIL_HOST_PASSWORD = 'g00Gle@tech1.'
+EMAIL_USE_TLS = 1
 EMAIL_PORT = 587
 
 # Database

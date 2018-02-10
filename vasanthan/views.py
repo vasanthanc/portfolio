@@ -64,7 +64,7 @@ def send_mail_local(request):
                 email = EmailMessage (
                     "New contact form submission",
                     content,
-                    "vinnarasan.c@gmail.com" + '',
+                    "vinnarasan@live.com" + '',
                     ['vasanthan93c@gmail.com'],
                     headers={'Reply-To': contact_email}
                 )
