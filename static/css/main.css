@@ -9,6 +9,7 @@
 /* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
+/*{% load staticfiles %}*/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700);
@@ -715,7 +716,7 @@ margin-top:50px;
 }
 .antica{
 	background: #91a3bb61;
-	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("/static/images/antica.png");
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('/static/images/antica.png');
     background-repeat: no-repeat;
 	background-size: contain;
     background-position-y: center;
