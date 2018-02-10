@@ -23,8 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'bowe(8bqrv$!hea4be8-p(0bfi5rg=%eozd!o$^cc*=ba9^91h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
+DEBUG = False
+# ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['vasanthanportfolio.herokuapp.com']
 
 
@@ -76,7 +76,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp-mail.outlook.com'
 DEFAULT_FROM_EMAIL = "vinnarasan@live.com"
 EMAIL_HOST_USER = DEFAULT_FROM_EMAIL
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_PASSWORD = 'g00Gle@tech1.'
 EMAIL_USE_TLS = 1
 EMAIL_PORT = 587
 
